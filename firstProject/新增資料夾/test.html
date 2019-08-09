@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Document</title>
+
+    <style>
+        
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <canvas id="canvas" width="100px" height="100px" style="border: 1px solid black" ></canvas>
+
+    <script>
+
+        var ctx = document.getElementById("canvas").getContext("2d");
+        ctx.font = "20px Arial";
+        ctx.fillStyle = "red";
+        ctx.rotate(30 * Math.PI / 180);
+        ctx.fillText("apple", 15, 15);
+        ctx.fillText("apple", 20, 20);
+        ctx.fillText("apple", 30, 20);
+        
+        
+    </script>
+
+</body>
+
+</html>
